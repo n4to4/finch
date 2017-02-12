@@ -297,6 +297,7 @@ val validateCommands = List(
   "coverage",
   "test",
   "coverageReport",
-  "coverageAggregate"
+  "coverageAggregate",
+  "unidoc"
 )
 addCommandAlias("validate", validateCommands.mkString(";", ";", ""))
